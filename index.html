@@ -1,0 +1,44 @@
+<!-- this tag tells the browser that this is an HTML5 webpage -->
+<!DOCTYPE html>
+<!-- html is a required tag on each html page; lang=en is optional-->
+<html lang="en">
+    <!-- head seaction is where the info for the browers and search engine go-->
+<head>
+    <!-- tells the browser about what characters say appear on the site; UFT-8 is-->
+     <!-- basically everything-->
+  <meta charset="UTF-8">
+  <!-- Set the viewport to ensure mobile responsiveness -->
+   <!-- leave this meta tag as is so that the site will display ok on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the webpage -->
+  <title>Sanyerlis "Vanessa" Camacaro - Student Info</title>
+  <!-- Links the external CSS stylesheet -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <!-- Container that wraps the entire content -->
+  <div class="container">
+    
+    <!-- UAT logo -->
+    <img src="UATLogo.png" alt="UAT Logo" class="logo">
+    
+    <!-- Heading for the page -->
+    <h1>Student Information</h1>
+
+    <!-- Section to display my Name -->
+    <p id="name"></p>
+
+    <!-- Section to display my Major -->
+    <p id="major"></p>
+
+    <!-- Section to display my UAT Email -->
+    <p id="email"></p>
+
+    <!-- Section to display my Graduation Date -->
+    <p id="graduation"></p>
+  </div>
+
+  <!-- Link to the JavaScript file that inserts my student data -->
+  <script src="main.js"></script>
+</body>
+</html>
